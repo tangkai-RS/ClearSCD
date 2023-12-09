@@ -1,4 +1,4 @@
 # ClearSCD
-A remote sensing semantic change detection model
+A remote sensing semantic change detection model, Comprehensively leveraged sEmantics and chAnge Relationships Semantics Change Detection model, named ClearSCD.
 
-The code and dataset will coming soon~
+Our code will open when published. 
