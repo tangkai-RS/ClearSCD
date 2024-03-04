@@ -39,7 +39,7 @@ def split_sample(sample, seg_pretrain=False):
 def get_dataset(args):
     if args.dataset == 'HiUCD':
         train_dataset = HiUCDDataset(args, split='train')
-        val_dataset = HiUCDDataset(args, split='test')
+        val_dataset = HiUCDDataset(args, split='val')
     elif args.dataset =='LoveDA':
         train_dataset = LoveDADataset(args, split='train')
         val_dataset = LoveDADataset(args, split='val')
