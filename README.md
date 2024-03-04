@@ -9,7 +9,7 @@ This new method draws inspiration from the mutual reinforcement of semantic and 
 Overview of the ClearSCD.
 
 ## Innovations
-The main innovations in ClearSCD are as follows: 
+The main innovations in ClearSCD are as follows:
 Firstly, we introduced a supervised Semantics Augmented Contrastive Learning (SACL) module, utilizing both local and global data features, along with cross-temporal differences. 
 
 Secondly, a Bi-temporal Semantic Correlation Capture (BSCC) mechanism is designed, allowing for the refinement of semantics through the output of the Binary Change Detection (BCD) branch.
