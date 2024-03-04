@@ -12,3 +12,9 @@ Firstly, we introduced a supervised Semantics Augmented Contrastive Learning (SA
 Secondly, a Bi-temporal Semantic Correlation Capture (BSCC) mechanism is designed, allowing for the refinement of semantics through the output of the Binary Change Detection (BCD) branch.
 
 Lastly, a deep CVAPS module in classification posterior probability space is developed to execute BCD by integrating semantics posterior probabilities instead of high-dimensional features.
+
+
+## Getting Started
+###Prepare Dataset
+1. Download [Hi-UCD series dataset](https://github.com/Daisy-7/Hi-UCD-S)
+2. 
