@@ -25,3 +25,6 @@ The main innovations in ClearSCD are as follows:
    **Note: After running the deal_hiucd.py,  the classification codes in Hi-UCD with the land cover class in order minus 1, unlabeled region as 9 in bi-temporal semantic maps, and unlabelled as 255 in BCD.**
    
 3. Run main.py, then you will find the checkpoints in the results folder.
+
+## Future
+We will publish a large-scale semantic change detection(LsSCD) dataset, which consists of Google Earth images from September 2013 and August 2015, with a spatial resolution of 0.6 m and a full size of 48000 × 32500 pixels (about 471 km2), revealing urban and rural land cover changes in the city of Nanjing, the capital of Jiangsu Province, China. Seven LULC types, including building, road, water, bare land, tree, cropland, and others, were recorded in LsSCD.
