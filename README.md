@@ -4,6 +4,7 @@
 A remote sensing semantic change detection model, Comprehensively leveraged sEmantics and chAnge Relationships Semantics Change Detection model, named ClearSCD.
 
 This new method draws inspiration from the mutual reinforcement of semantic and change information in the multi-task learning model. 
+(figs/ClearSCD.png)
 
 ## Innovations
 The main innovations in ClearSCD are as follows: 
