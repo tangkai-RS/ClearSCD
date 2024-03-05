@@ -21,8 +21,8 @@ The main innovations in ClearSCD are as follows:
 ## Getting Started
 1. Download [Hi-UCD series dataset](https://github.com/Daisy-7/Hi-UCD-S).
    
-2. Deal with the dataset using `clip_image.py`, `deal_hiucd.py` and `write_path.py` from the floder scripts.<br>
-   **Note: After running the `deal_hiucd.py`,  the classification codes in Hi-UCD with the land cover class in order minus 1, unlabeled region as 9 in bi-temporal semantic maps, and unlabelled as 255 in BCD.**
+2. Deal with the dataset using `clip_image.py`, `deal_hiucd.py`, and `write_path.py` from the folder scripts.<br>
+   **Note: After running the `deal_hiucd.py`,  the classification codes in Hi-UCD with the land cover class in order minus 1, the unlabeled region as 9 in bi-temporal semantic maps, and unlabeled as 255 in BCD.**
    
 3. Run `main.py`, then you will find the checkpoints in the results folder.
 
