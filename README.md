@@ -33,4 +33,4 @@ LsSCD reveals urban and rural land cover changes in the city of Nanjing, the cap
 
 Seven LULC types, including building, road, water, bare land, tree, cropland, and others, were recorded in LsSCD.
 
-[LsSCD download link](http://www.chen-lab.club/?page_id=11432) (Commming soon)
+[LsSCD download link](http://www.chen-lab.club/?page_id=11432) (comming soon)
