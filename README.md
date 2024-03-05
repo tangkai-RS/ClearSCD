@@ -32,3 +32,5 @@ We will publish a large-scale semantic change detection (LsSCD) dataset, which c
 LsSCD reveals urban and rural land cover changes in the city of Nanjing, the capital of Jiangsu Province, China. 
 
 Seven LULC types, including building, road, water, bare land, tree, cropland, and others, were recorded in LsSCD.
+
+[LsSCD download link](http://www.chen-lab.club/?page_id=11432) (Commming soon)
