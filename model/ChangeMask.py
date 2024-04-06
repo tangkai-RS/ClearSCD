@@ -1,4 +1,4 @@
-# Reproduced version according to the original paper description
+# Reproduced version according to the original paper description "ChangeMask: Deep multi-task encoder-transformer-decoder architecture for semantic change detection"
 import torch
 import torch.nn as nn
 import torchvision
@@ -36,8 +36,8 @@ class TST(nn.Module):
     def forward(self, features_A, features_B):
         features_AB = [tst(torch.stack([fa, fb], dim=2)) for tst, fa, fb in zip(self.tst_list, features_A, features_B)]
         features_BA = [tst(torch.stack([fb, fa], dim=2)) for tst, fb, fa in zip(self.tst_list, features_B, features_A)]
-        temporal_features = [fab * fba for fab, fba in zip(features_AB, features_BA)]
-        return temporal_features
+        tst_features = [fab * fba for fab, fba in zip(features_AB, features_BA)]
+        return tst_features
     
 
 class ChangeMask(nn.Module):
@@ -84,8 +84,8 @@ class ChangeMask(nn.Module):
         features_A = self.encoder(img_A)
         features_B = self.encoder(img_B)
 
-        temporal_features = self.tst(features_A, features_B)
-        logits_BCD = self.bcd_decoder(*temporal_features)
+        tst_features = self.tst(features_A, features_B)
+        logits_BCD = self.bcd_decoder(*tst_features)
         logits_BCD = self.bcd_head(logits_BCD)
             
         seg_A = self.seg_decoder(*features_A)
