@@ -35,5 +35,5 @@ Seven LULC types, including building, road, water, bare land, tree, cropland, an
 
 [LsSCD download link](http://www.chen-lab.club/?page_id=11432) (comming soon)
 
-![](figs/LsSCD.png)
+![](figs/LsSCD des.png)
 Overview of the LsSCD.
