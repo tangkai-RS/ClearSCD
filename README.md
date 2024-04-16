@@ -1,7 +1,7 @@
 # ClearSCD
 
 ## News
-Our study has been accepted by the *ISPRS Journal of Photogrammetry and Remote Sensing*.
+ClearSCD has been accepted by the *ISPRS Journal of Photogrammetry and Remote Sensing*.
 
 ## Introduction
 A remote sensing semantic change detection model, Comprehensively leveraged sEmantics and chAnge Relationships Semantics Change Detection model, named ClearSCD.
