@@ -1,7 +1,5 @@
-# ClearSCD
-
-## News
-ClearSCD has been accepted by the *ISPRS Journal of Photogrammetry and Remote Sensing*.
+# The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
+[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001734?via%3Dihub)
 
 ## Introduction
 A remote sensing semantic change detection model, Comprehensively leveraged sEmantics and chAnge Relationships Semantics Change Detection model, named ClearSCD.
@@ -28,6 +26,20 @@ The main innovations in ClearSCD are as follows:
    **Note: After running the `deal_hiucd.py`,  the classification codes in Hi-UCD with the land cover class in order minus 1, the unlabeled region as 9 in bi-temporal semantic maps, and unlabeled as 255 in BCD.**
    
 3. Run `main.py`, then you will find the checkpoints in the results folder.
+
+## Citation
+If you use the ClearSCD codes or the LsSCD dataset, please cite our paper:
+```bibtex
+@article{TANG2024299,
+title = {The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery},
+author = {Kai Tang and Fei Xu and Xuehong Chen and Qi Dong and Yuheng Yuan and Jin Chen},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {211},
+pages = {299-317},
+year = {2024},
+issn = {0924-2716},
+}
+```
 
 ## Future
 We will publish a large-scale semantic change detection (LsSCD) dataset, which consists of Google Earth images from September 2013 and August 2015, with a spatial resolution of 0.6 m and a full size of 48000 × 32500 pixels.
