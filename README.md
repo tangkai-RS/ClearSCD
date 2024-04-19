@@ -1,4 +1,4 @@
-# The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
+## The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
 [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001734?via%3Dihub)
 
 ## Introduction
