@@ -46,6 +46,7 @@
     "weight_decay": 0.0005,
     "lr_scheduler": "step",
     "////////": "======================================dataset=================================================",
+    "size": 512,
     "dataset": "HiUCD",
     "train_txt_path": "./txt/train_HiUCD.txt",
     "val_txt_path": "./txt/val_HiUCD.txt",

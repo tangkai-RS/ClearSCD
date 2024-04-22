@@ -512,8 +512,8 @@ class ClearSCD(nn.Module):
         outputs = {}
         # semantic augmentation contrastive learning (SACL)
         if self.args.with_sacl and (not test):
-            label_A = F.interpolate(label_A.unsqueeze(1).float(), size=(128, 128), mode='nearest').squeeze()
-            label_B = F.interpolate(label_B.unsqueeze(1).float(), size=(128, 128), mode='nearest').squeeze()
+            label_A = F.interpolate(label_A.unsqueeze(1).float(), size=(self.args.size // 4, self.args.size // 4), mode='nearest').squeeze()
+            label_B = F.interpolate(label_B.unsqueeze(1).float(), size=(self.args.size // 4, self.args.size // 4), mode='nearest').squeeze()
             
             # project features
             proj_feat_A = self.proj_head(seg_A)
@@ -539,8 +539,8 @@ class ClearSCD(nn.Module):
         if self.args.with_bscc and (not test):
             seg_diff = torch.abs(seg_A - seg_B)
             if self.args.bscc_with_label:
-                bcd_mask = F.interpolate(label_BCD.unsqueeze(1).float(), size=(128, 128), mode='nearest')
-                bcd_true_mask = F.interpolate(label_BCD.unsqueeze(1).float(), size=(128, 128), mode='nearest')
+                bcd_mask = F.interpolate(label_BCD.unsqueeze(1).float(), size=(self.args.size // 4, self.args.size // 4), mode='nearest')
+                bcd_true_mask = F.interpolate(label_BCD.unsqueeze(1).float(), size=(self.args.size // 4, self.args.size // 4), mode='nearest')
                 outputs['bscc_loss'] = self.bscc(seg_diff, bcd_mask, bcd_true_mask) * self.args.bscc_weight
             else:
                 bcd_mask = self.sigmoid(bcd_mask)

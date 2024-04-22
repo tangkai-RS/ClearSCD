@@ -80,7 +80,7 @@ def main(args):
     metric_best = -1
     metric_best_dict = {}
     start_epoch = 1
-    Log.init(log_file=saver.experiment_dir + '/log.log')
+    Log.init(logfile_level="info", log_file=saver.experiment_dir + '/log.log')
 
     if isinstance(args.resume, str):
         checkpoint = torch.load(args.resume)
