@@ -2,9 +2,10 @@
 import torch
 import torch.nn as nn
 import torchvision
-from .segmentation_models_pytorch_myself.encoders.efficientnet import (EfficientNetEncoder, efficient_net_encoders)
-from .segmentation_models_pytorch_myself.base import SegmentationHead
-from .segmentation_models_pytorch_myself.decoders.unet.decoder import UnetDecoder
+
+from segmentation_models_pytorch.base import SegmentationHead
+from segmentation_models_pytorch.decoders.unet.decoder import UnetDecoder
+from segmentation_models_pytorch.encoders.efficientnet import (EfficientNetEncoder, efficient_net_encoders)
 
 
 class Squeeze2(nn.Module):
