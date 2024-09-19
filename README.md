@@ -18,6 +18,9 @@ The main innovations in ClearSCD are as follows:
 
 3. A deep CVAPS module in classification posterior probability space is developed to execute BCD by integrating semantics posterior probabilities instead of high-dimensional features.
 
+## Requirements
+1. The pytorch version of torchvision>=0.13.1 is recommended to ensure that the torchvision library contains efficientnet.
+2. Then `pip install segmentation-models-pytorch` to install a Python library [Segmentation Models Pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) for image segmentation based on PyTorch.
 
 ## Getting Started
 1. Download [Hi-UCD series dataset](https://github.com/Daisy-7/Hi-UCD-S).
