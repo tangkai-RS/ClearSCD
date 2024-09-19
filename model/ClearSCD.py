@@ -4,10 +4,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from loss.losses import BSCCLoss
-from .segmentation_models_pytorch_myself.base import SegmentationHead
-from .segmentation_models_pytorch_myself.decoders import FPNDecoder
-from .segmentation_models_pytorch_myself.encoders.resnet import (ResNetEncoder, resnet_encoders)
-from .segmentation_models_pytorch_myself.encoders.efficientnet import (EfficientNetEncoder, efficient_net_encoders)
+from segmentation_models_pytorch.base import SegmentationHead
+from segmentation_models_pytorch.decoders.fpn.decoder import FPNDecoder
+from segmentation_models_pytorch.encoders.resnet import (ResNetEncoder, resnet_encoders)
+from segmentation_models_pytorch.encoders.efficientnet import (EfficientNetEncoder, efficient_net_encoders)
 from einops import repeat, rearrange
 
 
