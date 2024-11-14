@@ -30,6 +30,8 @@ The main innovations in ClearSCD are as follows:
    
 3. Run `main.py`, then you will find the checkpoints in the results folder.
 
+4. Run `test.py`, then you will obtain the eval test metric and visual results, our checkpoint on the Hi-UCD-mini dataset can be download from [Google Drive](https://drive.google.com/file/d/13U_luASmmVsrQNEK2SPrJRCEfQROWf8p/view?usp=sharing)
+
 ## Citation
 If you use the ClearSCD codes or the LsSCD dataset, please cite our paper:
 ```bibtex
