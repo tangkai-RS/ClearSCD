@@ -35,9 +35,9 @@ The main innovations in ClearSCD are as follows:
 ## Citation
 If you use the ClearSCD codes or the LsSCD dataset, please cite our paper:
 ```bibtex
-@article{TANG2024299,
+@article{tang2024clearscd,
 title = {The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery},
-author = {Kai Tang and Fei Xu and Xuehong Chen and Qi Dong and Yuheng Yuan and Jin Chen},
+author = {Tang, Kai and Xu, Fei and Chen, Xuehong and Dong, Qi and Yuan, Yuheng and Chen, Jin},
 journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
 volume = {211},
 pages = {299-317},
