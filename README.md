@@ -1,5 +1,5 @@
 ## The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
-[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001734?via%3Dihub)
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001734?via%3Dihub)
 
 ## Introduction
 A remote sensing semantic change detection model, Comprehensively leveraged sEmantics and chAnge Relationships Semantics Change Detection model, named ClearSCD.
@@ -32,8 +32,17 @@ The main innovations in ClearSCD are as follows:
 
 4. Run `test.py`, then you will obtain the test metric and visual results. Our checkpoint on the Hi-UCD-mini dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/13U_luASmmVsrQNEK2SPrJRCEfQROWf8p/view?usp=sharing)
 
+## Dataset
+We have released the extended LsSCD dataset, LsSCD-Ex. [[Download link]](https://doi.org/10.5281/zenodo.17765755) 
+
+**Note**: If you need the original, uncropped large-scale TIFF imagery, please contact us (tangkai@mail.bnu.edu.cn) to obtain the download link.
+<div align="center">
+  <img src="figs/LsSCD-Ex.png" width="80%">
+</div>
+
+
 ## Citation
-If you use the ClearSCD codes or the LsSCD dataset, please cite our paper:
+If you use the ClearSCD codes or the LsSCD-Ex dataset, please cite our paper:
 ```bibtex
 @article{tang2024clearscd,
 title = {The ClearSCD model: Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery},
@@ -44,16 +53,15 @@ pages = {299-317},
 year = {2024},
 issn = {0924-2716},
 }
+
+@article{tang2026dreamcd,
+  title = {DreamCD: A Change-Label-Free Framework for Change Detection via a Weakly Conditional Semantic Diffusion Model in Optical VHR Imagery},
+  author = {Tang, Kai and Zheng, Zhuo and Chen, Hongruixuan and Chen, Xuehong and Chen, Jin},
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  volume = {146},
+  pages = {105125},
+  year = {2026},
+  issn = {1569-8432},
+  doi = {10.1016/j.jag.2026.105125},
+}
 ```
-
-## Future
-We will publish a large-scale semantic change detection (LsSCD) dataset, which consists of Google Earth images from September 2013 and August 2015, with a spatial resolution of 0.6 m and a full size of 48000 × 32500 pixels.
-
-LsSCD reveals urban and rural land cover changes in the city of Nanjing, the capital of Jiangsu Province, China. 
-
-Seven LULC types, including building, road, water, bare land, tree, cropland, and others, were recorded in LsSCD.
-
-[LsSCD download link](http://www.chen-lab.club/?page_id=11432) (comming soon)
-
-![](figs/LsSCD.png)
-Overview of the LsSCD.
